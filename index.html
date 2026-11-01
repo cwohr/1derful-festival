@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 1derful Festival</title>
+
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Site JS -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+
+    <!-- Header / Navigation -->
+    <header id="site-header">
+      <div id="header-inner">
+        <div id="logo">
+          <h1>The 1derful Festival</h1>
+          <p id="tagline">Celebrating the greatest one-hit wonders of the 90s &amp; 2000s</p>
+        </div>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#lineup">Lineup</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#vendors">Vendors</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <a href="#my-picks" id="nav-cta">My Picks</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+            <!-- Hero / Carousel -->
+      <section id="hero">
+        <div id="hero-carousel">
+          <div class="slide">
+            <img src="assets/images/hero-1.jpg" alt="Crowds cheering at the main stage at sunset">
+            <div class="slide-caption">
+              <h2>Three Days. One Beach. A Thousand Memories.</h2>
+              <p>August 14–16, 2026 &bull; Clearwater Beach, FL</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="assets/images/hero-2.jpg" alt="Artist performing on the oceanfront stage at night">
+            <div class="slide-caption">
+              <h2>The Songs You Never Forgot</h2>
+              <p>Featuring the greatest one-hit wonders of the 90s &amp; 2000s</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="assets/images/hero-3.jpg" alt="Festival goers watching the sunset over the ocean">
+            <div class="slide-caption">
+              <h2>Sun, Sand &amp; That One Song</h2>
+              <p>Get your tickets before they're gone</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div id="about-inner">
+          <div id="about-text">
+            <h2>About The 1derful Festival</h2>
+            <p>Every song on this lineup was a phenomenon. A cultural moment. A track that owned the radio, dominated the charts, and then — just like that — became the one song everyone knows by heart from an artist they couldn't name twice.</p>
+            <p>The 1derful Festival is a three-day beachfront celebration of exactly that magic. Held every August on the shores of Clearwater Beach, Florida, we bring together the artists behind the most beloved one-hit wonders of the 90s and 2000s for a weekend of music, nostalgia, and pure joy.</p>
+            <p>Whether you were singing along in a car, a school dance, or a living room — these songs were the soundtrack to a moment in your life. Come relive them with us.</p>
+            <a href="#lineup" id="about-cta">See the Lineup</a>
+          </div>
+          <div id="about-image">
+            <img src="assets/images/about.jpg" alt="Aerial view of the festival grounds on Clearwater Beach at golden hour">
+          </div>
+        </div>
+      </section>
+
+            <!-- Schedule — jQuery UI Tabs -->
+      <section id="schedule">
+        <div id="schedule-inner">
+          <h2>Festival Schedule</h2>
+          <div id="schedule-tabs">
+            <ul>
+              <li><a href="#friday">Friday Aug 14</a></li>
+              <li><a href="#saturday">Saturday Aug 15</a></li>
+              <li><a href="#sunday">Sunday Aug 16</a></li>
+            </ul>
+            <div id="friday">
+              <ul class="schedule-list">
+                <li><span class="time">4:00 PM</span><span class="act">Tal Bachman</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">5:30 PM</span><span class="act">Len</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">6:15 PM</span><span class="act">The Rembrandts</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">7:00 PM</span><span class="act">Fastball</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">8:30 PM</span><span class="act">Semisonic</span><span class="stage">Ocean Stage</span></li>
+                 <li><span class="time">9:15 PM</span><span class="act">Montell Jordan</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">10:00 PM</span><span class="act">Chumbawamba</span><span class="stage">Ocean Stage</span></li>
+              </ul>
+            </div>
+            <div id="saturday">
+              <ul class="schedule-list">
+                <li><span class="time">4:00 PM</span><span class="act">Hanson</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">5:30 PM</span><span class="act">Los Del Rio</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">6:15 PM</span><span class="act">Crazy Town</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">7:00 PM</span><span class="act">Aqua</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">8:30 PM</span><span class="act">Savage Garden</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">9:15 PM</span><span class="act">Vanessa Carlton</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">10:00 PM</span><span class="act">Marcy Playground</span><span class="stage">Ocean Stage</span></li>
+              </ul>
+            </div>
+            <div id="sunday">
+              <ul class="schedule-list">
+                <li><span class="time">4:00 PM</span><span class="act">Right Said Fred</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">5:00 PM</span><span class="act">Rusted Root</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">5:30 PM</span><span class="act">4 Non Blondes</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">6:15 PM</span><span class="act">Nine Days</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">7:00 PM</span><span class="act">Wheatus</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">8:30 PM</span><span class="act">Nelly Furtado</span><span class="stage">Ocean Stage</span></li>
+                <li><span class="time">9:15 PM</span><span class="act">Daniel Powter</span><span class="stage">Boardwalk Stage</span></li>
+                <li><span class="time">10:00 PM</span><span class="act">Sixpence None The Richer</span><span class="stage">Ocean Stage</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Artist Lineup — populated dynamically via AJAX/JSON -->
+      <section id="lineup">
+        <div id="lineup-inner">
+          <h2>Artist Lineup</h2>
+          <p id="lineup-intro">Twenty-two unforgettable artists. One incredible weekend. Browse the full lineup below and save your favorites to My Picks.</p>
+          <div id="lineup-grid">
+            <!-- Artist cards loaded here by main.js via artists.json -->
+          </div>
+          <div id="lineup-controls">
+            <button id="load-more-btn">Load More Artists</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Picks — uses Web Storage to save and retrieve user's favorite artists -->
+      <section id="my-picks">
+        <div id="picks-inner">
+          <div id="picks-intro">
+            <h2>My Picks</h2>
+            <p>Save your must-see artists and we'll remember your list the next time you visit. Click the heart on any artist card to add them to your picks. We'll save each band's set time and stage so you know exactly when and where to be.</p>
+          </div>
+          <div id="picks-display">
+            <h3>Your Saved Artists</h3>
+            <ul id="picks-list">
+              <!-- Populated from localStorage by main.js -->
+            </ul>
+            <p id="picks-empty">You haven't saved any artists yet. Browse the lineup and click the heart icon to save your favorites!</p>
+            <button id="clear-picks-btn">Clear My Picks</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vendors & Food -->
+      <section id="vendors">
+        <div id="vendors-inner">
+          <h2>Vendors &amp; Food</h2>
+          <p id="vendors-intro">From fresh seafood to festival favorites, our hand-picked vendors bring the best of Florida's food scene right to the beach. There's something for everyone at The 1derful Festival.</p>
+          <div id="vendors-grid">
+            <div class="vendor-card">
+              <h3>Gulf Coast Tacos</h3>
+              <p class="vendor-type">Food</p>
+              <p>Fresh Baja-style fish tacos, shrimp bowls, and house-made salsas. A festival staple since year one.</p>
+            </div>
+            <div class="vendor-card">
+              <h3>The Lemonade Stand</h3>
+              <p class="vendor-type">Beverages</p>
+              <p>Hand-squeezed lemonades, fresh fruit smoothies, and specialty iced teas. The perfect beachside refreshment.</p>
+            </div>
+            <div class="vendor-card">
+              <h3>Sunset Slices</h3>
+              <p class="vendor-type">Food</p>
+              <p>New York-style pizza by the slice with creative Florida-inspired toppings. Hot and ready all night long.</p>
+            </div>
+            <div class="vendor-card">
+              <h3>The Nostalgia Shop</h3>
+              <p class="vendor-type">Merchandise</p>
+              <p>Official 1derful Festival merch, vintage band tees, cassette tapes, and 90s memorabilia you didn't know you needed.</p>
+            </div>
+            <div class="vendor-card">
+              <h3>Coastal Brews</h3>
+              <p class="vendor-type">Beverages</p>
+              <p>Local Florida craft beers, seltzers, and non-alcoholic options. Proudly serving only Florida-based breweries.</p>
+            </div>
+            <div class="vendor-card">
+              <h3>Churro Beach</h3>
+              <p class="vendor-type">Desserts</p>
+              <p>Classic and stuffed churros, funnel cakes, and frozen treats. Because every great festival needs something sweet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ — jQuery UI Accordion -->
+      <section id="faq">
+        <div id="faq-inner">
+          <h2>Frequently Asked Questions</h2>
+          <div id="faq-accordion">
+            <h3>When and where is The 1derful Festival?</h3>
+            <div>
+              <p>The 1derful Festival takes place August 14–16, 2026 on Clearwater Beach, Florida. The festival grounds are located at Pier 60 Park, right on the waterfront. Gates open at 3:00 PM each day.</p>
+            </div>
+            <h3>How do I purchase tickets?</h3>
+            <div>
+              <p>Tickets are available through our official ticketing partner. Single-day passes and three-day weekend passes are both available. We recommend purchasing in advance as the festival has sold out in previous years. Click the My Picks button in the navigation to save your favorite artists before buying.</p>
+            </div>
+            <h3>Is the festival all ages?</h3>
+            <div>
+              <p>Yes! The 1derful Festival is an all-ages event. Children 10 and under are admitted free with a paying adult. Please note that the beverage areas are restricted to guests 21 and older with valid ID.</p>
+            </div>
+            <h3>What can I bring into the festival?</h3>
+            <div>
+              <p>Guests are welcome to bring blankets, low-back chairs, sealed water bottles, and small bags. All bags are subject to search upon entry. Outside food and beverages, professional cameras, and glass containers are not permitted on the festival grounds.</p>
+            </div>
+            <h3>Is there parking available?</h3>
+            <div>
+              <p>Limited parking is available at the Pier 60 parking garage. We strongly encourage guests to use the free festival shuttle service running from Clearwater Mall, or to use rideshare services. Accessible parking is available on-site with valid permit.</p>
+            </div>
+            <h3>What happens if it rains?</h3>
+            <div>
+              <p>The 1derful Festival is a rain-or-shine event. In the event of severe weather or lightning, performances may be temporarily paused for guest safety. Refunds are not available for weather delays. We recommend bringing a poncho just in case!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+      <div id="footer-inner">
+        <div id="footer-logo">
+          <h2>The 1derful Festival</h2>
+          <p>August 14–16, 2026 &bull; Clearwater Beach, FL</p>
+        </div>
+        <nav id="footer-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#lineup">Lineup</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#vendors">Vendors</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#my-picks">My Picks</a></li>
+          </ul>
+        </nav>
+        <div id="footer-info">
+          <p>Pier 60 Park, Clearwater Beach, Florida</p>
+          <p>For inquiries: <a href="mailto:info@1derfulfestival.com">info@1derfulfestival.com</a></p>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <p>&copy; 2026 The 1derful Festival. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

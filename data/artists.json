@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Tal Bachman",
+    "song": "She's So High",
+    "year": 1999,
+    "day": "Friday",
+    "time": "4:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/tal-bachman.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Len",
+    "song": "Steal My Sunshine",
+    "year": 1999,
+    "day": "Friday",
+    "time": "5:30 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/len.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fastball",
+    "song": "The Way",
+    "year": 1998,
+    "day": "Friday",
+    "time": "6:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/fastball.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Semisonic",
+    "song": "Closing Time",
+    "year": 1998,
+    "day": "Friday",
+    "time": "7:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/semisonic.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chumbawamba",
+    "song": "Tubthumping",
+    "year": 1997,
+    "day": "Friday",
+    "time": "8:30 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/chumbawamba.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Rembrandts",
+    "song": "I'll Be There for You",
+    "year": 1995,
+    "day": "Friday",
+    "time": "10:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/the-rembrandts.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hanson",
+    "song": "MMMBop",
+    "year": 1997,
+    "day": "Saturday",
+    "time": "4:00 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/hanson.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Los Del Rio",
+    "song": "Macarena",
+    "year": 1995,
+    "day": "Saturday",
+    "time": "5:30 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/los-del-rio.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Aqua",
+    "song": "Barbie Girl",
+    "year": 1997,
+    "day": "Saturday",
+    "time": "6:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/aqua.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Savage Garden",
+    "song": "Truly Madly Deeply",
+    "year": 1997,
+    "day": "Saturday",
+    "time": "7:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/savage-garden.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Marcy Playground",
+    "song": "Sex and Candy",
+    "year": 1997,
+    "day": "Saturday",
+    "time": "8:30 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/marcy-playground.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Crazy Town",
+    "song": "Butterfly",
+    "year": 2000,
+    "day": "Saturday",
+    "time": "6:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/crazy-town.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Vanessa Carlton",
+    "song": "A Thousand Miles",
+    "year": 2002,
+    "day": "Saturday",
+    "time": "9:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/vanessa-carlton.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Montell Jordan",
+    "song": "This Is How We Do It",
+    "year": 1995,
+    "day": "Saturday",
+    "time": "9:15 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/montell-jordan.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Right Said Fred",
+    "song": "I'm Too Sexy",
+    "year": 1991,
+    "day": "Sunday",
+    "time": "4:00 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/right-said-fred.jpg"
+  },
+  {
+    "id": 16,
+    "name": "4 Non Blondes",
+    "song": "What's Up",
+    "year": 1992,
+    "day": "Sunday",
+    "time": "5:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/4-non-blondes.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Wheatus",
+    "song": "Teenage Dirtbag",
+    "year": 2000,
+    "day": "Sunday",
+    "time": "6:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/wheatus.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Nelly Furtado",
+    "song": "I'm Like a Bird",
+    "year": 2000,
+    "day": "Sunday",
+    "time": "7:00 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/nelly-furtado.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Sixpence None The Richer",
+    "song": "Kiss Me",
+    "year": 1997,
+    "day": "Sunday",
+    "time": "8:30 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/sixpence.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Rusted Root",
+    "song": "Send Me on My Way",
+    "year": 1994,
+    "day": "Sunday",
+    "time": "5:00 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/rusted-root.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Nine Days",
+    "song": "Absolutely (Story of a Girl)",
+    "year": 2000,
+    "day": "Sunday",
+    "time": "6:15 PM",
+    "stage": "Boardwalk Stage",
+    "image": "assets/images/artists/nine-days.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Daniel Powter",
+    "song": "Bad Day",
+    "year": 2005,
+    "day": "Sunday",
+    "time": "9:15 PM",
+    "stage": "Ocean Stage",
+    "image": "assets/images/artists/daniel-powter.jpg"
+  }
+]
