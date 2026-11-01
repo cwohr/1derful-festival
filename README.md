@@ -29,3 +29,4 @@ HTML5 · CSS3 · JavaScript · jQuery · jQuery UI · Slick Carousel · AJAX/JSO
 ## Notes
 
 Built as the final project for GIT 418 at Arizona State University. The page is a fixed 1280px desktop layout. The JavaScript in this public copy is obfuscated to protect the original coursework.
+
